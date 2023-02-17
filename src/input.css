@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&family=PT+Mono&display=swap');
+
+html {
+  font-size: 62.5%;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.heading {
+  @apply p-12 text-4xl outline-1 outline-test outline;
+}

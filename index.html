@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html class="font-ptmono" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="dist/output.css" />
+
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Babylonica&family=PT+Mono&display=swap"
+      rel="stylesheet"
+    /> -->
+
+    <style>
+      .image {
+        /* background-image: url(./aayush.png); */
+        background-image: linear-gradient(
+            rgba(0, 0, 255, 0.5),
+            rgba(255, 255, 0, 0.5)
+          ),
+          url('./aayush.png');
+        width: 100vw;
+        height: 100vh;
+      }
+    </style>
+    <title>Tailwind Testing Ground</title>
+  </head>
+  <body>
+    <h1 class="heading">Tailwind</h1>
+    <h1 class="p-12 text-4xl outline-1 outline-test outline">Tailwind</h1>
+
+    <div class="h-screen bg-hero-pattern"></div>
+    <div class="h-screen bg-hero-image"></div>
+    <div class="h-screen image"></div>
+
+    <div
+      class="px-6 py-8 rounded-lg shadow-xl dark:bg-slate-800 ring-1 ring-slate-900/5"
+    >
+      <div>
+        <span
+          class="inline-flex items-center justify-center p-2 bg-indigo-500 rounded-md shadow-lg"
+        >
+          <svg
+            class="w-6 h-6 text-white"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            aria-hidden="true"
+          >
+            <!-- ... -->
+          </svg>
+        </span>
+      </div>
+      <h3
+        class="mt-5 text-base font-medium tracking-tight text-slate-900 dark:text-white"
+      >
+        Writes Upside-Down
+      </h3>
+      <p class="mt-2 text-sm text-slate-500 dark:text-slate-400">
+        The Zero Gravity Pen can be used to write in any orientation, including
+        upside-down. It even works in outer space.
+      </p>
+    </div>
+  </body>
+</html>
